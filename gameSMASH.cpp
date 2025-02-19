@@ -8,7 +8,7 @@ public:
 
         while (n > 1) {
             // Find the two heaviest stones
-            int max1 = -1, max2 = -1; // Indices of the two heaviest stones
+            int max1 = -1, max2 = -1; // Indices of the two heaviest stones.
             for (int i = 0; i < n; i++) {
                 if (max1 == -1 || stones[i] > stones[max1]) {
                     max2 = max1; // Update second heaviest
