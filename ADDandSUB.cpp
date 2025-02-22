@@ -20,8 +20,8 @@ void AddSubNo(){
 
 };
 int main(){
-    int a,b;
-    cin >> a >> b;
+    int a,b,c;
+    cin >> a >> b>> c;
     ADDSUB obj(a,b);
     obj.AddSubNo();
     return 0;
